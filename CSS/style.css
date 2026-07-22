@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-Stone100: hsl(30, 54%, 90%);
+    --clr-Stone150:  hsl(30, 18%, 87%);
+    --clr-Stone600: hsl(30, 10%, 34%);
+    --clr-Stone900: hsl(24, 5%, 18%);
+    --clr-Brown800: hsl(14, 45%, 36%);
+    --clr-Rose800: hsl(332, 51%, 32%);
+    --clr-Rose50: hsl(330, 100%, 98%);
+    --clr-White: hsl(0, 0%, 100%);
+}
+
+body {
+     /* background-color: var(--clr-Stone150); */
+    font-family: Outfit;
+    font-size: 1rem;
+   
+}
+
+img {
+    max-inline-size: 100%;
+}
+
+.container {
+    /* width: 1400px; */
+    max-width: 80%;
+    margin-inline: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.card {
+    background-color: var(--clr-Stone150);
+    margin-block: 10rem;
+    padding: 2rem;
+    border-radius: 15px;
+
+}
