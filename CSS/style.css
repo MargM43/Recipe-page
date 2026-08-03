@@ -5,41 +5,101 @@
 }
 
 :root {
-    --clr-Stone100: hsl(30, 54%, 90%);
-    --clr-Stone150:  hsl(30, 18%, 87%);
-    --clr-Stone600: hsl(30, 10%, 34%);
-    --clr-Stone900: hsl(24, 5%, 18%);
-    --clr-Brown800: hsl(14, 45%, 36%);
-    --clr-Rose800: hsl(332, 51%, 32%);
-    --clr-Rose50: hsl(330, 100%, 98%);
-    --clr-White: hsl(0, 0%, 100%);
+    --clr-Stone100: #f3e6db
+    --clr-Stone150:  #e4ded8;
+    --clr-Stone600: #5f574e;
+    --clr-Stone900: #302d2c;
+    --clr-Brown800: #854632;
+    --clr-Rose800: #7b284f;
+    --clr-Rose50: #fff5fa;
+    --clr-White: #fff;
 }
 
 body {
      /* background-color: var(--clr-Stone150); */
     font-family: Outfit;
     font-size: 1rem;
-   
+}
+p, li {
+    letter-spacing: 1.3;
+    line-height: 1.6;
 }
 
 img {
     max-inline-size: 100%;
 }
 
+h1, h2, h3 {
+    font-family: Young Serif, serif;
+    font-weight: 400;
+    color: var(--clr-Brown800);
+}
+h1 {
+    color: var(--clr-Stone900);
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+h3 {
+    font-family: Outfit, sans-serif;
+}
+
 .container {
-    /* width: 1400px; */
+   /* width: 1200px; */
     max-width: 80%;
     margin-inline: 20rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: center;
    
 }
 
 .card {
-    background-color: var(--clr-Stone150);
-    margin-block: 10rem;
+    /* margin-block: 5rem; */
     padding: 2rem;
     border-radius: 15px;
+    background-color: var(--clr-White);
+}
+.heading {
+    margin-block: 1rem;
+}
 
+.heading h1 {
+    padding-block-end: 1rem;
+}
+
+section {
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+section.preparation {
+    background-color: var(--clr-Rose50);
+}
+
+.nutrition h2 {
+    font-size: 1.5rem;
+}
+
+table {
+    margin-block-start: 1.5rem;
+    margin-inline-start: 2.3rem;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin-block-end: 2rem;
+    
+}
+
+tr .second {
+    color: var(--clr-Brown800);
+}
+
+td {
+    font-size: 2rem;
+    border-block-end: 1px solid var(--clr-Stone600);
+    gap: 2rem;
 }
