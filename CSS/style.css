@@ -44,7 +44,7 @@ h1 {
 
 .container {
    /* width: 1200px; */
-    max-width: 80%;
+    max-width: 90%;
     margin-inline: 20rem;
     display: flex;
     justify-content: center;
@@ -80,6 +80,14 @@ ol, ul {
 
 .custom-marker > li {
     padding-left: 1rem;
+}
+
+::marker {
+    font-weight: bold;
+}
+
+::marker .preparation {
+    color: var(--clr-Brown800);
 }
 
 table {
