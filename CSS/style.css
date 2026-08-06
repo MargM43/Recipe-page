@@ -42,21 +42,30 @@ h1 {
     color: var(--clr-Stone900);
 }
 
-.container {
-   /* width: 1200px; */
-    max-width: 90%;
-    margin-inline: 20rem;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-   
+body {
+    background-color: var(--clr-Stone150);
+     display: flex;
+   justify-content: center;
+   align-self: center;
 }
 
+ .container {
+    flex-direction: column;
+  
+ } 
+  
+
 .card {
-    padding: 3rem;
+     max-width: 90%;
+     margin-inline: 16rem;
+   margin-block: 3rem;
+     padding: 3rem; 
     border-radius: 15px;
     background-color: var(--clr-White);
-}
+        padding: 4rem;
+
+
+} 
 .heading {
     margin-block: 1rem;
 }
@@ -71,7 +80,7 @@ ol, ul {
 .preparation {
     padding: 1rem;
     border-radius: 10px;
-   background-color: var(--clr-Rose50);
+   background-color: var(--clr-Stone150);
 }
 
 .preparation h3 {
@@ -111,3 +120,7 @@ td {
     border-block-end: 1px solid var(--clr-Stone600);
     gap: 2rem;
 }
+/* 
+footer {
+    display: none;
+} */
