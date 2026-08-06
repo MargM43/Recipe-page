@@ -5,7 +5,7 @@
 }
 
 :root {
-    --clr-Stone100: #f3e6db
+    --clr-Stone100: #f3e6db;
     --clr-Stone150:  #e4ded8;
     --clr-Stone600: #5f574e;
     --clr-Stone900: #302d2c;
@@ -80,7 +80,7 @@ ol, ul {
 .preparation {
     padding: 1rem;
     border-radius: 10px;
-   background-color: var(--clr-Stone150);
+   background-color: var(--clr-Stone100);
 }
 
 .preparation h3 {
@@ -120,3 +120,7 @@ td {
     border-block-end: 1px solid var(--clr-Stone600);
     gap: 2rem;
 }
+/* 
+footer {
+    display: none;
+} */
