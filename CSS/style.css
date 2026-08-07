@@ -45,7 +45,7 @@ h3 {
 .container {
     display: block;
     max-width: 80%;
-    margin-inline: 10rem;
+    margin-inline: 20rem;
     margin-block: 3rem;
     border-radius: 10px;
     background-color: var(--clr-White);
@@ -56,6 +56,14 @@ h3 {
     padding-block: 3rem;
     background-color: var(--clr-White);
     border-radius: 10px;
+    @media (width <= 400px) {
+        padding-inline: 0.1rem;
+        padding-block: 0.2rem;
+        font-size: 12px;
+    }
+    li {
+        margin-block-end: 8px;
+    }
 }
 
 .heading p {
@@ -67,6 +75,9 @@ h1 {
     padding-block-end: 0.5rem;
     font-family: Young serif, serif;
     font-weight: 400;
+    @media (width <= 400px) {
+        font-size: 1.5rem;
+    }
 }
 
 .heading {
@@ -84,11 +95,35 @@ h1 {
     padding-inline-start: 2rem;
 }
 
+.preparation,
+.ingredients,
+.instructions {
+    @media (width <= 400px) {
+        padding-inline-start: 0.5rem;
+        letter-spacing: 1.3;
+        line-height: 1.6;
+    }
+    li {
+        margin-block-end: 8px;
+    }
+}
+
+.nutrition {
+    @media (width <= 400px) {
+        padding-inline-start: 8px;
+    }
+}
 .preparation {
     background-color: var(--clr-Rose50);
     border-radius: 10px;
     padding-inline-start: 2.5rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
+
 
 ol, ul {
     padding-inline-start: 2rem;
@@ -113,12 +148,18 @@ ol, ul {
 table {
     margin-block-start: 1.5rem;
     margin-inline-start: 2.3rem;
+    @media (width <= 400px) {
+        margin-inline-start: 0rem;
+    }
 }
 
 tr {
     display: grid;
     grid-template-columns: 300px 1fr;
     padding-block-end: 2rem;
+    @media (width <= 400px) {
+        grid-template-columns: 150px 1fr;
+    }
 }
 
 tr .second {
@@ -126,10 +167,10 @@ tr .second {
 }
 
 td {
-    font-size: 1rem;
     padding-block-end: 1rem;
   border-block-end: 0.5px dotted var(--clr-Rose800);
    
 }
+
 
 

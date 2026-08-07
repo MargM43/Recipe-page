@@ -1,6 +1,6 @@
 # Frontend Mentor - Recipe page solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). 
 
 ## Table of contents
 
@@ -20,23 +20,23 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
+- I was surprised at how difficult I found this challenge.
+  - It started out really well until suddenly the white background on the card became a different color as did the background on the preparation section.
+   - I pushed to the repository several times and, mostly, the published 
+   site looked worse than the one in my browser.
+   - Finally I viewed it on a different computer and it looked as I would have expected it to.
+- Now I'll need to find out if some aspect of my browser is causing the problem
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./![recipe page](image.png))
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/MargM43/Recipe-page)
+- Live Site URL: [Add live site URL here](https://resilient-meerkat-8e574b.netlify.app/)
 
 ## My process
 
@@ -45,13 +45,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
