@@ -48,7 +48,7 @@ h3 {
     margin-inline: 10rem;
     margin-block: 3rem;
     border-radius: 10px;
-    
+    background-color: var(--clr-White);
 }
 
 .card {
